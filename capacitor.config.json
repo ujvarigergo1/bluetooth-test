@@ -1,6 +1,19 @@
 {
-	"appId": "io.ionic.starter",
-	"appName": "bluetooth-test",
+	"appId": "io.ionic.bluetooth.test",
+	"appName": "Bluetooth Test",
 	"webDir": "dist",
-	"bundledWebRuntime": false
+	"bundledWebRuntime": false,
+	"plugins": {
+		"SplashScreen": {
+		  "launchAutoHide": true,
+		  "backgroundColor": "#ffffffff",
+		  "androidSplashResourceName": "splash",
+		  "androidScaleType": "CENTER_INSIDE",
+		  "showSpinner": false,
+		  "splashFullScreen": true,
+		  "splashImmersive": false,
+		  "layoutName": "launch_screen",
+		  "useDialog": false
+		}
+	  }
 }
